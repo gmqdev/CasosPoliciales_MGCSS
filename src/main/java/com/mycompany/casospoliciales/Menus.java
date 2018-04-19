@@ -52,7 +52,6 @@ class Menus {
                             System.out.println("ESPECIALIDAD: ");
                             String especialidad = sc.next();
                             
-                            //System.out.println(codigo + " " + nombre + " " + sexoChar + " " + pais + " " + especialidad);
                             Experto experto1 = new Experto(codigo, nombre, sexoChar, pais, especialidad);
                             manejaexperto.guardaExperto(experto1);
                             
